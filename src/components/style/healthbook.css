@@ -1,0 +1,110 @@
+.healthbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding:20px 25px;
+    background-color: #F8FAF9;
+}
+.healthbox p span{
+    font-weight: 150;
+    color: #757575;
+}
+
+.healthbox .btn{
+    float: right;
+}
+.healthbox button.add{
+    background: #4A95DB;
+    border-radius:7px;
+    margin: 0px 0px 0px 15px;
+}
+.healthbox button.edit{
+    background: #4A95DB;
+    border-radius:5px;
+    padding: 1px 5px;
+    font-size: small;
+}
+.healthbox button.delete{
+    background: #FF5B5B;
+    border-radius:5px;
+    padding: 1px 10px;
+    font-size: small;
+    margin-left: 15px;
+}
+
+.healthbox .bottom button{
+    border-color: #757575;
+    border-radius: 0px;
+    color: #757575;
+
+}
+
+.healthbox .bottom button:nth-child(3){
+    background: #4A95DB;
+    color: white;
+}
+.healthbox #table-box{
+    background-color: rgb(255, 255, 255);
+    padding:10px 15px;
+}
+.bottom{
+    margin-top: 20px;
+}
+.medicine{
+    display: flex;
+    width: 100%;
+    color: #646464;
+
+}
+
+.detail{
+ height: 700;
+ width: 35%;
+border-left: "1px solid #BFBEBE";
+padding: 65px 10px 0px;
+border-left: 2px solid rgba(46, 46, 46, 0.445);
+}
+.detail h5{
+    background: #ecf2f7;
+    color: #3a3a3a;
+    padding: 10px 30px;
+}
+.detail ul{
+    background: #ecf2f7;
+    list-style: none;
+}
+.detail ul {
+    padding: 15px 30px;
+}
+.detail ul li span{
+    color: #3a3a3a;
+    font-size:large;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.inputRounded .MuiOutlinedInput-root {
+    border-radius: 15px;
+  }
+ .entries1{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 0px 10px 10px;
+ }
+ .entries2{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 0px 10px 10px;
+ }
+
+ .Appointment_detail{
+     padding-left: "15px";
+    
+ }
